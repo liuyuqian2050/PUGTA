@@ -46,10 +46,7 @@ ncbi-blast+ (available at https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_
 
 ## Input
 
-ProtHint inputs consist of:
-
-* Genomic sequence from the target species in multi-FASTA format
-* Reference protein sequences in multi-FASTA format
+* Genomic sequence from the target species in FASTA format
 
 The tool is applicable to complete as well as draft genome assemblies. Every sequence needs to have a unique ID 
 (first word of a FASTA header is used for ID). Examples of valid FASTA headers:
